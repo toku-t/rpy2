@@ -14,7 +14,7 @@ from rpy2.rinterface_lib import conversion
 
 logger = logging.getLogger(__name__)
 
-_CCHAR_ENCODING = 'utf-8'
+_CCHAR_ENCODING = 'CP932'  # Your system native encoding
 
 
 # TODO: rename to "replace_in_module"
